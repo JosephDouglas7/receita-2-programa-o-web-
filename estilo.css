@@ -1,0 +1,46 @@
+/* Estilo para os parágrafos da classe verso */
+p.verso {
+    color: blue;
+}
+
+/* Estilo para os parágrafos da classe mote */
+p.mote {
+    color: red;
+}
+
+/* Estilo para o cabeçalho da tabela */
+th {
+    background-color: #f4b084; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinhamento do texto */
+    padding: 10px; /* Espaçamento interno */
+    font-family: Arial, sans-serif; /* Fonte */
+}
+
+/* Estilo para as células da tabela */
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd; /* Borda */
+}
+
+/* Estilo para a tabela */
+table {
+    border-collapse: collapse;
+    width: 60%; /* Largura da tabela */
+    margin: 20px auto; /* Centraliza a tabela */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Estilo para links */
+a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
