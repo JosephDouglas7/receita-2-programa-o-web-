@@ -1,0 +1,90 @@
+<!DOCTYPE html> 
+<html>  
+  <head> 
+    <link href="estilo.css" rel="stylesheet">
+    <style>
+      /* Estilo geral para links */
+      a.link {
+        color: blue; /* Cor padrão dos links */
+        text-decoration: none; /* Remove sublinhado */
+        font-weight: bold; /* Torna o texto em negrito */
+        transition: color 0.3s ease; /* Adiciona transição suave */
+      }
+
+      /* Estilo para links visitados */
+      a.link:visited {
+        color: purple; /* Cor dos links já visitados */
+      }
+
+      /* Estilo para o link ao passar o mouse */
+      a.link:hover {
+        color: red; /* Cor dos links ao passar o mouse */
+        text-decoration: underline; /* Adiciona sublinhado ao hover */
+      }
+
+      /* Estilo para links clicados */
+      a.link:active {
+        color: darkred; /* Cor para links durante o clique */
+      }
+
+      /* Estilo para as imagens dentro de div com classe "poeta" */
+      .poeta img {
+        width: 50px; /* Largura do avatar */
+        height: 50px; /* Altura do avatar */
+        border-radius: 50%; /* Torna a imagem arredondada */
+        margin-right: 10px; /* Espaço entre a imagem e o texto */
+        vertical-align: middle; /* Alinha verticalmente com o texto */
+      }
+    </style>
+  </head>
+  <body> 
+    <p class="verso">Já não tenho meus dentes naturais</p> 
+    <p class="verso">Que comi rapadura com biscoito</p> 
+    <p class="verso">Cadê minha pressão 12 por 8</p> 
+    <p class="verso">Que no peito não tá batendo mais</p> 
+    <p class="verso">Dou um passo pra frente e dois pra trás</p> 
+    <p class="verso">E assim mesmo com pouca habilidade</p> 
+    <p class="verso">Que as feridas deixadas pela idade</p> 
+    <p class="verso">Não se curam com pano de compressa</p> 
+    <p class="mote">Vi a vida passando tão depressa</p> 
+    <p class="mote">Que nem lembro que tive mocidade</p>
+    <br/> 
+    <div class="poeta">
+      <img src="https://th.bing.com/th/id/R.f1c4f8c2576d70ce2adeeadbecff2fcd?rik=y45r7Cpx1rvpBw&riu=http%3a%2f%2f2.bp.blogspot.com%2f-QJmFu0TKHoY%2fVAYp3DTW-cI%2fAAAAAAAAT60%2fjRELlWIh8L8%2fs1600%2f558081_282058855262052_564756080_n.jpg&ehk=Z98aOPWVzqkQSjVZskBga81Xx1wdA7z581ZIR6dqu8w%3d&risl=&pid=ImgRaw&r=0" alt="João Paraibano">
+      <a href="https://paraibacriativa.com.br/artista/joao-paraibano/" target="_blank" class="link">João Paraibano</a>
+    </div>
+  </body>
+</html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Bebidas</title>
+    <link href="estilo.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Tabela de Bebidas</h1>
+    <table>
+        <tr>
+            <th>Bebida</th>
+            <th>Link</th>
+        </tr>
+        <tr>
+            <td>Café</td>
+            <td><a href="https://pt.wikipedia.org/wiki/Caf%C3%A9" target="_blank">Pesquisar Café</a></td>
+        </tr>
+        <tr>
+            <td>Chá</td>
+            <td><a href="https://pt.wikipedia.org/wiki/Ch%C3%A1" target="_blank">Pesquisar Chá</a></td>
+        </tr>
+        <tr>
+            <td>Suco de Laranja</td>
+            <td><a href="https://pt.wikipedia.org/wiki/Suco_de_laranja" target="_blank">Pesquisar Suco de Laranja</a></td>
+        </tr>
+        <tr>
+            <td>Refrigerante</td>
+            <td><a href="https://pt.wikipedia.org/wiki/Refrigerante" target="_blank">Pesquisar Refrigerante</a></td>
+        </tr>
+    </table>
+</body>
+</html>
